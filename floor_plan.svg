@@ -3,7 +3,7 @@
    enable-background="new"
    inkscape:export-ydpi="48"
    inkscape:export-xdpi="48"
-   inkscape:export-filename="images/n0llegasque_alt2.png"
+   inkscape:export-filename="images/led_power.png"
    sodipodi:docname="floor_plan.svg"
    viewBox="0 0 3839.9999 2160"
    height="2160"
@@ -154,13 +154,13 @@
   </defs>
   <sodipodi:namedview
      inkscape:document-rotation="0"
-     inkscape:current-layer="layer21"
+     inkscape:current-layer="layer22"
      inkscape:window-maximized="1"
      inkscape:window-y="-8"
      inkscape:window-x="2552"
-     inkscape:cy="806.48003"
-     inkscape:cx="1830.7247"
-     inkscape:zoom="0.33292827"
+     inkscape:cy="1105.4906"
+     inkscape:cx="1963.5468"
+     inkscape:zoom="0.47083167"
      fit-margin-bottom="1"
      fit-margin-right="1"
      fit-margin-left="1"
@@ -179,11 +179,15 @@
      pagecolor="#ffffff"
      inkscape:pagecheckerboard="0"
      inkscape:showpageshadow="0"
-     inkscape:deskcolor="#d1d1d1" />
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:lockguides="true"
+     inkscape:snap-bbox="true"
+     inkscape:snap-global="true" />
   <g
      inkscape:groupmode="layer"
      id="layer10"
-     inkscape:label="Walls">
+     inkscape:label="Walls"
+     style="display:inline">
     <g
        sodipodi:insensitive="true"
        transform="translate(-101.89365,-285.93344)"
@@ -401,7 +405,7 @@
   </g>
   <g
      sodipodi:insensitive="true"
-     style="display:inline"
+     style="display:none"
      inkscape:label="Scener"
      id="layer5"
      inkscape:groupmode="layer">
@@ -428,7 +432,7 @@
   </g>
   <g
      sodipodi:insensitive="true"
-     style="display:inline"
+     style="display:none"
      inkscape:label="Ljud"
      id="layer14"
      inkscape:groupmode="layer">
@@ -500,21 +504,19 @@
      style="display:none"
      inkscape:label="DMX"
      id="layer13"
-     inkscape:groupmode="layer"
-     sodipodi:insensitive="true">
+     inkscape:groupmode="layer">
     <g
        inkscape:groupmode="layer"
        id="layer15"
        inkscape:label="Kabel (new)"
-       style="display:inline"
-       sodipodi:insensitive="true">
+       style="display:inline">
       <path
          style="display:inline;fill:none;fill-opacity:1;stroke:#ff2600;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="m 1722.7252,1053.7057 -2,-107.78649 H 393.04895 V 228.58166 H 2982.7119 v 726.62949 399.55335 h 429.2875 v 654.1523 h -152.3878 l -21.0069,78.399 -509.5627,-6.851 -137.9056,-263.0846 328.5196,-182.6568 -294.3535,-408.6883 -222.9259,66.0229 -30.6475,114.3782"
          id="path10665"
          sodipodi:nodetypes="ccccccccccccccccc" />
       <path
-         style="display:inline;fill:none;stroke:#ff0000;stroke-width:7.03038;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="display:inline;fill:none;stroke:#ff0000;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="M 394.79855,669.49866 2414.099,669.499 V 260 H 2027.5007 V 643.00206 H 1185.6512 V 299.20038"
          id="path14542"
          sodipodi:nodetypes="ccccccc" />
@@ -537,7 +539,7 @@
            style="font-size:18.6667px">Killer</tspan></text>
     </g>
     <g
-       style="display:inline"
+       style="display:none"
        sodipodi:insensitive="true"
        inkscape:label="Lampor"
        id="layer9"
@@ -649,7 +651,7 @@
        inkscape:groupmode="layer"
        id="layer16"
        inkscape:label="RGB-List"
-       style="display:inline"
+       style="display:none"
        sodipodi:insensitive="true">
       <rect
          style="display:inline;fill:url(#linearGradient5925);fill-opacity:1;fill-rule:evenodd;stroke-width:0.75436"
@@ -705,12 +707,12 @@
     </g>
   </g>
   <g
-     sodipodi:insensitive="true"
      transform="translate(-101.89365,-285.93344)"
      style="display:none"
      inkscape:label="DALI-Armaturer"
      id="layer3"
-     inkscape:groupmode="layer">
+     inkscape:groupmode="layer"
+     sodipodi:insensitive="true">
     <ellipse
        ry="51.2453"
        rx="55.559525"
@@ -1334,13 +1336,13 @@
      inkscape:groupmode="layer"
      id="layer17"
      inkscape:label="Taket"
-     sodipodi:insensitive="true"
-     style="display:none">
+     style="display:inline">
     <g
        inkscape:groupmode="layer"
        id="layer18"
        inkscape:label="Rör"
-       sodipodi:insensitive="true">
+       sodipodi:insensitive="true"
+       style="display:none">
       <rect
          style="display:inline;fill:#656565;fill-opacity:1;stroke:none;stroke-width:0.932122;stroke-opacity:1"
          id="rect7952"
@@ -1419,12 +1421,115 @@
          x="2920.2668"
          y="1464.9697" />
     </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer22"
+       inkscape:label="LED_Power">
+      <g
+         id="g7940"
+         transform="translate(8.4956052,107.25702)">
+        <rect
+           style="fill:#4040ff;fill-opacity:1;stroke-width:25.5841;stroke-linecap:round"
+           id="rect4003"
+           width="108.13139"
+           height="90.109497"
+           x="780.94904"
+           y="765.93073" />
+        <text
+           xml:space="preserve"
+           style="font-size:53.3333px;line-height:1.25;font-family:sans-serif"
+           x="782.18927"
+           y="830.39954"
+           id="text6337"><tspan
+             sodipodi:role="line"
+             id="tspan6335"
+             x="782.18927"
+             y="830.39954"
+             style="font-size:53.3333px">PSU</tspan></text>
+      </g>
+      <g
+         id="g9569"
+         transform="translate(-100.00004)">
+        <g
+           id="g7940-8"
+           transform="translate(1419.051,107.25702)"
+           style="display:inline">
+          <rect
+             style="fill:#4040ff;fill-opacity:1;stroke-width:25.5841;stroke-linecap:round"
+             id="rect4003-6"
+             width="108.13139"
+             height="90.109497"
+             x="780.94904"
+             y="765.93073" />
+          <text
+             xml:space="preserve"
+             style="font-size:53.3333px;line-height:1.25;font-family:sans-serif"
+             x="782.18927"
+             y="830.39954"
+             id="text6337-5"><tspan
+               sodipodi:role="line"
+               id="tspan6335-3"
+               x="782.18927"
+               y="830.39954"
+               style="font-size:53.3333px">PSU</tspan></text>
+        </g>
+      </g>
+      <g
+         id="g7940-2"
+         transform="translate(2103.051,107.25702)"
+         style="display:inline">
+        <rect
+           style="fill:#4040ff;fill-opacity:1;stroke-width:25.5841;stroke-linecap:round"
+           id="rect4003-4"
+           width="108.13139"
+           height="90.109497"
+           x="780.94904"
+           y="765.93073" />
+        <text
+           xml:space="preserve"
+           style="font-size:53.3333px;line-height:1.25;font-family:sans-serif"
+           x="782.18927"
+           y="830.39954"
+           id="text6337-2"><tspan
+             sodipodi:role="line"
+             id="tspan6335-7"
+             x="782.18927"
+             y="830.39954"
+             style="font-size:53.3333px">PSU</tspan></text>
+      </g>
+      <path
+         style="fill:none;stroke:#ff0000;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 823.01175,881.419 V 248.49645 H 400.355"
+         id="path8914"
+         sodipodi:nodetypes="ccc" />
+      <path
+         style="display:inline;fill:none;stroke:#000000;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 400.355,234.496 H 837.01136 V 881.419 H 1900 V 230.996"
+         id="path8914-3"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 1900,881.419 h 1019.2 v 1154.39"
+         id="path13097"
+         sodipodi:nodetypes="ccc" />
+      <path
+         style="display:inline;fill:none;stroke:#ff0000;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 1914,230.996 v 636.423 h 259.012 l 0,26.91779"
+         id="path8914-7"
+         sodipodi:nodetypes="ccc" />
+      <path
+         style="display:inline;fill:none;stroke:#ff0000;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 2905.2,949.3863 V 2035.809"
+         id="path8914-7-5"
+         sodipodi:nodetypes="cc" />
+    </g>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer19"
      inkscape:label="Möblering"
-     style="display:inline">
+     style="display:none"
+     sodipodi:insensitive="true">
     <g
        sodipodi:insensitive="true"
        style="display:none"
@@ -1940,7 +2045,7 @@
        inkscape:groupmode="layer"
        id="layer21"
        inkscape:label="N0llegasquen_2"
-       style="display:inline">
+       style="display:none">
       <g
          style="display:inline;stroke-width:0.673997"
          transform="matrix(1.5259223,0,0,1.4426194,705.38773,87.715541)"
@@ -2742,7 +2847,7 @@
              style="font-size:35.3081px;line-height:1.25;fill:#ffffff;stroke-width:0.673997px"
              sodipodi:role="line"
              x="1560.9268"
-             y="668.45349"
+             y="667.73645"
              id="tspan10037" /></text>
       </g>
       <g
