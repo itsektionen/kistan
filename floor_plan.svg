@@ -3,7 +3,7 @@
    enable-background="new"
    inkscape:export-ydpi="48"
    inkscape:export-xdpi="48"
-   inkscape:export-filename="images/led_power.png"
+   inkscape:export-filename="images/pipe_map.png"
    sodipodi:docname="floor_plan.svg"
    viewBox="0 0 3839.9999 2160"
    height="2160"
@@ -154,7 +154,7 @@
   </defs>
   <sodipodi:namedview
      inkscape:document-rotation="0"
-     inkscape:current-layer="layer22"
+     inkscape:current-layer="layer18"
      inkscape:window-maximized="1"
      inkscape:window-y="-8"
      inkscape:window-x="2552"
@@ -1341,8 +1341,7 @@
        inkscape:groupmode="layer"
        id="layer18"
        inkscape:label="Rör"
-       sodipodi:insensitive="true"
-       style="display:none">
+       style="display:inline">
       <rect
          style="display:inline;fill:#656565;fill-opacity:1;stroke:none;stroke-width:0.932122;stroke-opacity:1"
          id="rect7952"
@@ -1420,11 +1419,19 @@
          height="350"
          x="2920.2668"
          y="1464.9697" />
+      <rect
+         style="display:inline;fill:#656565;fill-opacity:1;stroke:none;stroke-width:0.932122;stroke-opacity:1"
+         id="rect7952-0-4"
+         width="15"
+         height="450"
+         x="3503.3088"
+         y="1465.6255" />
     </g>
     <g
        inkscape:groupmode="layer"
        id="layer22"
-       inkscape:label="LED_Power">
+       inkscape:label="LED_Power"
+       style="display:none">
       <g
          id="g7940"
          transform="translate(8.4956052,107.25702)">
@@ -1514,7 +1521,7 @@
          sodipodi:nodetypes="ccc" />
       <path
          style="display:inline;fill:none;stroke:#ff0000;stroke-width:7;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 1914,230.996 v 636.423 h 259.012 l 0,26.91779"
+         d="m 1914,230.996 v 636.423 h 259.012 v 26.91779"
          id="path8914-7"
          sodipodi:nodetypes="ccc" />
       <path
